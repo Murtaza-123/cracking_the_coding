@@ -49,6 +49,9 @@ class SinglyLinkedList:
         node.next = node.next.next
 
 
+    def kth_to_last_element(self, k):
+        pass
+
 def list_into_linked_list(input_list):
     empty_list = SinglyLinkedList()
     for item in input_list:
